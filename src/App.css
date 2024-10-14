@@ -1,0 +1,30 @@
+.app-main {
+  display: flex;
+}
+
+.app-left {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 50%;
+}
+
+.app-right {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 50%;
+  background: #f8fbfd;
+}
+
+@media only screen and (max-width: 1024px) {
+  .app-main {
+    flex-wrap: wrap-reverse;
+  }
+
+  .app-left {
+    flex: 0 0 100%;
+  }
+
+  .app-right {
+    flex: 0 0 100%;
+  }
+}

@@ -1,0 +1,48 @@
+.header {
+  padding: 60px 80px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-logo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+  border: 0.5rem solid #000;
+}
+
+.header-content {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin: 1rem 0 0;
+}
+
+.header-illustration {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    padding: 15px 20px;
+  }
+
+  .header-content {
+    font-size: 2rem;
+  }
+
+  .header-illustration {
+    /* Kinda unfortunate that we're using this magic var for height,
+    but choosing to do that here for simplicity rather than calculate
+    this value in JS and set it dynamically. */
+    height: 132px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header-illustration {
+    visibility: hidden;
+  }
+}
