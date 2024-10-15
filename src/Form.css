@@ -38,3 +38,11 @@
   margin-bottom: 1rem;
 }
 
+.emoji-picker-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 400px;
+  background-color: lightcoral;
+}

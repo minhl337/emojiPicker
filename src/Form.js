@@ -24,19 +24,7 @@ function Form(props) {
       />
 
       <label className="form-label">How was your meal?</label>
-      <div className="emoji-picker-container">
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            height: "120px",
-            width: "400px",
-          }}
-        >
-          Add emoji input here
-        </div>
-      </div>
+      <div className="emoji-picker-container">Add emoji input here</div>
     </div>
   );
 }
