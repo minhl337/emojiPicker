@@ -2,7 +2,7 @@ This interview test was bootstrapped with [Create React App](https://github.com/
 
 ## Getting started
 
-- Clone the repo: `https://github.com/prophet-town/review-page-interview`
+- Clone the repo
 - Install dependencies: `npm i`
 - Make sure the app runs: `npm run start`
 
